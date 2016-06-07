@@ -1,0 +1,43 @@
+"""This is the opening level of the game.
+
+"""
+import os
+
+def start():
+    print("WELCOME TO THE GAME!")
+    print("You are about to embark on a journey beyond your wildest imagination! \nYou will laugh, love, cry, and even laugh again.")
+    print()
+    input("::more::")
+    print()
+    print("Instructions:\nTo look at objects closelier, type 'look (object)'\nTo interact with objects, use the command 'interact (object)'\nTo take an object, type 'take (item)' \nTo use an item in your inventory, type 'use (item)' \nTo talk to a person, type 'talk (person)'\nTo leave the game at any time, type 'exit'\nAny other possible commands will be given to you.")
+    print()
+    input("::more::")
+    print()
+    print("Are you ready to start?")
+    print()
+    input("::yay!!!::")
+    print()
+    print("WELCOME! To the world of tomorrow! Or is it the world of today?")
+    print("Doesn't Matter! What does matter, however, \nis that you just got a package from an unknown sender.")
+    print()
+    input("::oooh::")
+    print()
+    print("Now, a rational person would not open the box considering you were not \nexpecting one and the box might have anthrax or something in it.")
+    print("However, you are not as bright as the average person.")
+    print()
+    input("::open box::")
+    print()
+    print("Look! It's a 'time machine'! Ho awesome is this???")
+    print("Do you even know how to use something like this?")
+    print()
+    input("::press random buttons::")
+    print()
+    print("The machine is lighting up and going absolutely crazy.\n...this does not look good...")
+    print()
+    input("::let's get in!::")
+    print()
+    print("You step into the time machine")
+    input("::weeee!::")
+    os.system('Midieval.py 1')
+
+start()
